@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,46 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+.ssr-styles {
+  margin: auto;
+  padding: 15px 20px;
+  width: 60%;
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ssr-styles:last-child {
+  margin-bottom: 100px;
+}
+
+.ssr-styles-inside {
+  flex-direction: column;
+}
+
+.ssr-styles h3 {
+  padding: 20px;
+  width: 0;
+  height: 0;
+  background-color: #189cf0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.ssr-styles .link h2:hover {
+  color: #189cf0;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
 }
